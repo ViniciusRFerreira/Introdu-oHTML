@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mukta:wght@300&display=swap');
+
+body{
+    background-color: white;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(8, 109, 167);
+}
+h3, h4{
+    font-family: 'Mukta', sans-serif;
+    color: black;
+}
+
+.container{
+    color: white;
+    background-color: black;
+    width: 470px;
+    height: 40px;
+}
+
+.primeiro{
+    color: white;
+    background-color: rgb(31, 161, 31);
+    width: 285px;
+    height: 40px;
+}
