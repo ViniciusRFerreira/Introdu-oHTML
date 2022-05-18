@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root{
+    --light-green: #98DDCA;
+    --green: #6D9886;
+    --bg-black: #000;
+    --light-grey: #e0dede;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    background: var(--bg-black);
+}
+
+body, button, input, select, textarea{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+/* define a margem e a gordura da fonte*/
+h1,h2{
+    margin: 0;
+    font-weight: 300;
+}
+
+p{
+    color: var(--light-grey);
+}
+
+button{
+    background: var(--light-grey);
+    border: 0;
+    border-radius: 15px;
+    padding: 6px 20px;
+    color: var(--bg-black);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header{
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    width: 50%;
+    height: fit-content;
+    padding: 0 100px;
+}
+
+header .container h1{
+    color: var(--green);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: var(--bg-black);
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+}
+
+nav img{
+    height: 45px;
+}
+
+nav ul a{
+    font-size: 24px;
+    color: var(--green);
+    text-decoration: none;
+    margin: 0 35px;
+}
