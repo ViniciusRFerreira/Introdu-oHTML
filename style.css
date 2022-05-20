@@ -65,6 +65,10 @@ header .container h1{
     color: var(--green);
 }
 
+header .container img{
+    display: none;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -85,4 +89,22 @@ nav ul a{
     color: var(--green);
     text-decoration: none;
     margin: 0 35px;
+}
+
+@media(max-width:767px){
+
+    header .container{
+        width: 100%;
+    }
+
+    header .container img{
+        display: inline;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+
+    nav img{
+        display: none;
+    }
+
 }
