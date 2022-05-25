@@ -108,3 +108,24 @@ nav ul a{
     }
 
 }
+
+/* Quando a tela for abaixo de 480px */
+@media (max-width: 480px){
+    
+    header .container {
+        padding: 0 40px;
+    }
+
+    nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: unset;
+        padding: 0 15px;
+    }
+
+    nav ul a{
+        font-size: 12px;
+    }
+
+}
