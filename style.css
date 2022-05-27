@@ -91,6 +91,26 @@ nav ul a{
     margin: 0 35px;
 }
 
+nav ul a svg{
+    display: none;
+}
+
+.about-me{
+    display: flex;
+    padding: 100px;
+}
+
+.about-me .container{
+    width: 50%;
+    padding-right: 500px;
+}
+
+.about-me .img-container img{
+    width: 320px;
+    height: 320px;
+}
+
+/* Responsividade para tablet */
 @media(max-width:767px){
 
     header .container{
