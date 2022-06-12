@@ -35,8 +35,19 @@ h1,h2{
     font-weight: 300;
 }
 
+section .sub_title{
+    font-size: 30px;
+    color: var(--light-green);
+    font-weight: 600;
+}
+
 p{
     color: var(--light-grey);
+}
+
+section .sobre_mim{
+    font-size: 26px;
+    padding-top: 10%;
 }
 
 button{
@@ -95,7 +106,7 @@ nav ul a svg{
     display: none;
 }
 
-.about-me{
+.about-me {
     display: flex;
     padding: 100px;
 }
@@ -131,6 +142,45 @@ nav ul a svg{
     color: var(--green);
 }
 
+/* Serviços */
+.servicos{
+    position: absolute;
+    top: 200px;
+}
+
+.serv{
+    position: absolute;
+    left: 990px;
+    top: 1850px;
+    color: var(--light-green);
+}
+
+.um, .dois, .tres{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 136px;
+    top: 1115px;
+
+    background: #000000;
+    border: 3px solid #98DDCA;
+    border-radius: 10px;
+}
+
+.um{
+    left: 600px;
+    top: 2000px;
+}
+
+.dois{
+    left: 1200px;
+    top: 2000px;
+}
+
+.desc_um
+
 /* Responsividade para tablet */
 @media(max-width:767px){
 
@@ -149,6 +199,9 @@ nav ul a svg{
     }
 
 }
+
+
+
 
 /* Quando a tela for abaixo de 480px */
 @media (max-width: 480px){
@@ -169,4 +222,9 @@ nav ul a svg{
         font-size: 12px;
     }
 
+}
+
+.last_page .end_pic img{
+    padding-top: 3000px;
+    padding-left: 600px;
 }
